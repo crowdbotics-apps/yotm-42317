@@ -33,14 +33,14 @@ const styles = StyleSheet.create({
     backgroundColor: "#343985"
   },
   gjFhJVHD: {
-    height: 640,
-    width: 361,
+    height: 713,
+    width: 1163,
     backgroundColor: "#343985",
     borderRadius: 0,
     color: "#777777",
     position: "absolute",
-    top: 0,
-    left: -1
+    top: -11,
+    left: -4
   },
   yPkzDirs: {
     width: 107,
@@ -68,8 +68,8 @@ const styles = StyleSheet.create({
     borderRadius: 0,
     color: "#777777",
     position: "absolute",
-    left: 20,
-    top: 388
+    left: 19,
+    top: 387
   },
   vrQSxmaV: {
     width: 100,
