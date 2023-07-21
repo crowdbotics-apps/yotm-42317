@@ -21,7 +21,9 @@ const Untitled3 = () => {
               navigation.navigate("Untitled4");
             }}><Text style={styles.vrQSxmaV}>{"Log In"}</Text></Pressable></View></Pressable><Pressable onPress={() => {
           navigation.navigate("Untitled5", {});
-        }}><View style={styles.sXtEPGjX}><Pressable><Text style={styles.iCUyiZxF}>{"Sign Up"}</Text></Pressable></View></Pressable></View></ScrollView>
+        }}><View style={styles.sXtEPGjX}><Pressable><Text style={styles.iCUyiZxF}>{"Sign Up"}</Text></Pressable></View></Pressable><Pressable onPress={() => {
+          navigation.navigate("Untitled6");
+        }}><Text style={styles.kosQXcrw}>{"Skip Sign Up"}</Text></Pressable></View></ScrollView>
     </SafeAreaView>;
 };
 
@@ -37,8 +39,8 @@ const styles = StyleSheet.create({
     borderRadius: 0,
     color: "#777777",
     position: "absolute",
-    top: -4,
-    left: -4
+    top: 0,
+    left: -1
   },
   yPkzDirs: {
     width: 107,
@@ -100,6 +102,17 @@ const styles = StyleSheet.create({
     left: 107,
     fontWeight: "700",
     top: 2
+  },
+  kosQXcrw: {
+    width: 79,
+    height: 21,
+    lineHeight: 14,
+    fontSize: 14,
+    borderRadius: 0,
+    position: "absolute",
+    left: 141,
+    top: 537,
+    color: "#ffffff"
   }
 });
 export default Untitled3;
